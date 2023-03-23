@@ -3,7 +3,6 @@ from tkinter import *
 from tkinter import messagebox as msgb
 from win32api import GetSystemMetrics as GSM
 
-
 def confirm_close():
    ans = msgb.askyesno(title="close", message="are you sure you want to close?", icon="warning")
    if ans:
